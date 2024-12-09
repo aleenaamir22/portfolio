@@ -1,0 +1,19 @@
+<div className="p-3 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+         
+           <div className="flex items-center">
+      <a 
+        href="mailto:codewhisper@gmail.com" 
+        className="ml-3 text-red-500 flex items-center"
+      >
+        <SiGmail className="text-2xl hover:text-[red] ml-2" />
+        <span className="ml-2">codewhisper@gmail.com</span>
+      </a>
+    </div>
+                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          
+        <Link  target="_blank "href={"https://www.instagram.com/code._.whispers"} className="ml-3 text-gray-500">
+        <FaSquareInstagram className='text-2xl hover:text-[#cc2366]' /></Link>
+        <Link target='_blank' href={"https://www.linkedin.com/in/aleena-amir-5995482b6"} className="ml-3 text-gray-500">
+         <FaLinkedin className='text-2xl hover:text-[blue]' /></Link>
+        </span>
+        </div>
