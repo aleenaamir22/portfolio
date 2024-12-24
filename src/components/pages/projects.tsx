@@ -1,6 +1,13 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
+import fruitweb from "../../../public/acids/fruit-web.png"
+import pizzaweb from "../../../public/acids/pizza-web.png"
+import calculator from "../../../public/acids/calculator.jpeg"
+import resume from "../../../public/acids/resume.png"
+import game from "../../../public/acids/game.jpeg"
+import todoapp from "../../../public/acids/Todoapp.jpeg"
+
 const Projects = () => {
   return (
     <div id='projects' className='bg-[#F5F5DC]'>
@@ -11,14 +18,14 @@ const Projects = () => {
         Projects
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-yellow-500">
-      Welcome to the Projects page, a showcase of Aleena Amir's exceptional work, where creativity meets professionalism. Each project reflects Aleena's passion for crafting well-designed, impactful solutions that elevate experiences and deliver results. From concept to completion, every detail is meticulously curated to ensure a seamless blend of functionality and aesthetics. Whether it’s innovative digital designs, strategic branding, or cutting-edge development, Aleena’s projects embody excellence, leaving a lasting impression. Dive into this collection of transformative work and witness the artistry and dedication that define her professional journey.
+      Welcome to the Projects page, a showcase of Aleena Amir&apos;s exceptional work, where creativity meets professionalism.Each project reflects Aleena&apos;s passion for crafting well-designed, impactful solutions that elevate experiences and deliver results. From concept to completion, every detail is meticulously curated to ensure a seamless blend of functionality and aesthetics. Whether it&apos;s innovative digital designs, strategic branding, or cutting-edge development, Aleena&apos;s projects embody excellence, leaving a lasting impression. Dive into this collection of transformative work and witness the artistry and dedication that define her professional journey.
       </p>
     </div>
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/3 sm:w-1/2 p-4 border-4 border-gray-500">
         <div className="flex relative">
           <Image
-            src={require("../../../public/acids/fruit-web.png")}
+            src={fruitweb}
              alt="fruitweb"
              width={800}
              height={800}
@@ -43,7 +50,7 @@ const Projects = () => {
           <Image
             alt="Pizzawebsite"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/acids/pizza-web.png")}
+            src={pizzaweb}
             height={800}
             width={800}
           />
@@ -65,7 +72,7 @@ const Projects = () => {
           <Image
             alt="Calculator"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/acids/calculator.jpeg")}
+            src={calculator}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">
@@ -85,7 +92,7 @@ const Projects = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/acids/resume.png")}
+            src={resume}
             height={800}
             width={800}
           />
@@ -107,7 +114,7 @@ const Projects = () => {
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/acids/game.jpeg")}
+            src={game}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-yellow-500 mb-1">
@@ -127,7 +134,7 @@ const Projects = () => {
           <Image
             alt="to do app"
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src={require("../../../public/acids/Todoapp.jpeg")}
+            src={todoapp}
             height={500}
             width={500}
           />
@@ -139,7 +146,7 @@ const Projects = () => {
               Todo App
             </h1>
             <p className="leading-relaxed">
-            "I built a sleek to-do app with Next.js, showcasing my skills in responsive web applications.The app simplifies task management with an intuitive design and smooth performance."
+            I built a sleek to-do app with Next.js, showcasing my skills in responsive web applications.The app simplifies task management with an intuitive design and smooth performance.
             </p>
           </div>
         </div>

@@ -2,10 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
-import Navbar from '../navbar';
-
 
 const Contact = () => {
   return (
@@ -17,7 +14,7 @@ const Contact = () => {
         Contact Us
       </h1>
       <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-yellow-300">
-      I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
+      I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">

@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-
+import logo from "../../public/acids/logo and prof.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-left ">
     <a className="flex title-font font-medium items-center text-yellow-500 mb-3 md:mb-0 ">
    <Image 
-   src={require("../../public/acids/logo and prof.png")}
+   src={logo}
    alt='code whispers'
    height={500}
    width={500}

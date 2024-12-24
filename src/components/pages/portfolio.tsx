@@ -1,8 +1,5 @@
-import Image from "next/image";
-import { jsPDF } from 'jspdf';
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { SiGmail } from "react-icons/si";
 import Link from "next/link";
 const Portfolio = () => {
@@ -22,7 +19,7 @@ const Portfolio = () => {
         <section id="about" className="my-8 bg-white shadow-md p-6 rounded-md">
           <h2 className="text-2xl font-bold mb-4 text-orange-300">About Me</h2>
           <p>
-            Hi! I'm Aleena Amir, a passionate web developer and designer who
+            Hi! I&apos;m Aleena Amir, a passionate web developer and designer who
             loves creating user-friendly, responsive, and visually appealing
             websites. My goal is to combine creativity and functionality to
             deliver exceptional digital experiences.
